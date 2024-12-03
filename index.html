@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      .testimonial-box {
+        background-color: #f8f9fa; /* Box background color */
+        border-radius: 10px; /* Rounded corners */
+        padding: 20px;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+      }
+      .profile-pic {
+        position: absolute;
+        top: -20px;
+        left: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+        object-fit: cover; /* Adjust image within circle */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for the picture */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar start -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand fw-bolder" href="#">BiJON</a> -->
+        <a href="#"> <img src="img/profile/BiJON.svg" alt="" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav fw-bold">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-id">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar end -->
+
+    <!-- First Section Start  -->
+
+    <section class="container">
+      <div
+        class="d-flex flex-column flex-md-row justify-content-between align-items-center"
+      >
+        <div class="col-8 col-md-4">
+          <img src="img/profile/2.png" class="img-fluid m-3" alt="" />
+        </div>
+        <div class="col-12 col-md-6">
+          <p>Student</p>
+          <h3 class="fw-bold">Bijon Kumar</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            pariatur totam nisi hic? Laudantium necessitatibus tenetur quis
+            deserunt officiis, harum odit ab voluptate cumque?
+          </p>
+          <button class="btn bg-danger text-white">
+            <a href="#" class="text-white text-decoration-none">Download CV</a>
+          </button>
+          <button class="btn bg-danger">
+            <a href="#contact-id" class="text-white text-decoration-none"
+              >Contact</a
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- First Section End  -->
+
+    <!-- Second Section Start -->
+
+    <section class="container mt-5">
+      <p class="h5 text-decoration-underline">What I Do</p>
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="fw-bold"><i class="bi bi-pen-fill me-2"></i>Copywrite</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+            necessitatibus eius vero, laudantium non quibusdam!
+          </p>
+          <h3 class="fw-bold">
+            <i class="bi bi-camera-fill me-2"></i>Graphic Design
+          </h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
+            debitis officiis, perspiciatis veniam quam tenetur id officia fugit
+            commodi minima eos quibusdam quas ex cumque?
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h3 class="fw-bold"><i class="bi bi-bank2 me-2"></i>Ecommerce</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
+            debitis officiis, perspiciatis veniam quam tenetur id officia fugit
+            commodi minima eos quibusdam quas ex cumque?
+          </p>
+          <h3 class="fw-bold"><i class="bi bi-soundwave me-2"></i>Marketing</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
+            debitis officiis, perspiciatis veniam quam tenetur id officia fugit
+            commodi minima eos quibusdam quas ex cumque?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section End -->
+
+    <!-- Third Section Start -->
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-sm-12 mb-5 mb-md-0 col-md-6">
+          <div class="testimonial-box">
+            <img
+              src="img/profile/1.jpg"
+              alt="Profile Picture"
+              class="profile-pic"
+            />
+            <h5 class="mt-4">John Doe</h5>
+            <p class="text-muted">
+              "Bootstrap makes web development so much easier and faster. I
+              highly recommend it to anyone looking for a simple yet powerful
+              framework!"
+            </p>
+            <small class="text-muted">- Software Engineer</small>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="testimonial-box">
+            <img
+              src="img/profile/1.jpg"
+              alt="Profile Picture"
+              class="profile-pic"
+            />
+            <h5 class="mt-4">John Doe</h5>
+            <p class="text-muted">
+              "Bootstrap makes web development so much easier and faster. I
+              highly recommend it to anyone looking for a simple yet powerful
+              framework!"
+            </p>
+            <small class="text-muted">- Software Engineer</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-light pt-5 mt-5" id="contact-id">
+      <div class="container">
+        <div class="row">
+          <!-- About Section -->
+          <div class="col-md-4 mb-4">
+            <h5>About Us</h5>
+            <p class="text-white">
+              We are a team of passionate developers providing top-notch web
+              solutions for businesses worldwide.
+            </p>
+          </div>
+          <!-- Quick Links Section -->
+          <div class="col-md-4 mb-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="https://www.facebook.com/bijonku"
+                  class="text-light text-decoration-none"
+                  ><i class="bi bi-facebook me-2"></i>Facebook</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  ><i class="bi bi-twitter me-2"></i>Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/bijon-kumar-roy-21b0501b6/"
+                  class="text-light text-decoration-none"
+                  ><i class="bi bi-linkedin me-2"></i>Linkedin</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  ><i class="bi bi-instagram me-2"></i>Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Contact Section -->
+          <div class="col-md-4 mb-4">
+            <h5>Contact Us</h5>
+            <p><i class="bi bi-telephone-fill"></i> +123-456-7890</p>
+            <p><i class="bi bi-envelope-fill"></i> info@example.com</p>
+            <p><i class="bi bi-geo-alt-fill"></i> 123 Street, City, Country</p>
+          </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="text-center mt-4">
+          <p class="text-white">
+            &copy; 2024 Your Company. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
